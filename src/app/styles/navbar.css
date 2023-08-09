@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,300&display=swap');
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.465);
+}
+header .review-logo{
+    display: flex;
+    align-items: center;
+}
+header .review-logo .review-starImg{
+    width: 2rem;
+    margin: 0 10px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+.review-search-box {
+    width: 300px;
+    display: flex;
+    margin: 0 30px;
+  }
+  
+  .review-search-input {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 7px;
+    background:transparent;
+    color: #6c6c6c;
+    border-radius: 5px;
+    border:1px solid #be04ee;
+    transition: all .4s;
+    outline: none   ;
+  }
+
+  .review-search-btn {
+    background-color: transparent;
+    font-size: 18px;
+    padding: 6px 9px;
+    margin-left:-45px;
+    border:none;
+    color: #6c6c6c;
+    transition: all .4s;
+    z-index: 10;
+  }
+  
+  .review-search-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: black;
+  }
+  
+  .review-search-btn:focus {
+    outline:none;
+    color:black;
+  }
+  .review-avtar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image:url(../assets//avatar.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
